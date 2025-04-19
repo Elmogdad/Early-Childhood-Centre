@@ -11,16 +11,16 @@ function Header() {
         <div className="h-10 w-10 rounded-full bg-orange-500 flex items-center justify-center">
           <Star size={24} />
         </div>
-        <h1 className="text-xl md:text-2xl font-bold">مركز البراعم للطفولة المبكرة</h1>
+        <h1 className="text-xl md:text-xl font-bold">مركز البراعم للطفولة المبكرة</h1>
       </div>
       
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-6 rtl:space-x-reverse">
-        <a href="#" className="hover:text-orange-300 font-medium">الرئيسية</a>
-        <a href="#about" className="hover:text-orange-300 font-medium">من نحن</a>
-        <a href="#programs" className="hover:text-orange-300 font-medium">برامجنا</a>
-        <a href="#gallery" className="hover:text-orange-300 font-medium">معرض الصور</a>
-        <a href="#contact" className="hover:text-orange-300 font-medium">اتصل بنا</a>
+        <a href="#" className="hover:text-orange-300 font-small">الرئيسية</a>
+        <a href="#about" className="hover:text-orange-300 font-small">من نحن</a>
+        <a href="#programs" className="hover:text-orange-300 font-normal">برامجنا</a>
+        <a href="#gallery" className="hover:text-orange-300 font-normal">معرض الصور</a>
+        <a href="#contact" className="hover:text-orange-300 font-normal mr-4">اتصل بنا</a>
       </nav>
       
       {/* Mobile Menu Button */}
