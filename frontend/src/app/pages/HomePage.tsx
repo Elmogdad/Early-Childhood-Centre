@@ -8,7 +8,7 @@ import TestimonialsSection from '../components/landingPageComponents/Testimonial
 import Contact from '../components/landingPageComponents/Contact';
 import Footer from '../components/landingPageComponents/Footer';
 
-export default function LandingPage() {
+export default function HomePage() {
 
   
   return (

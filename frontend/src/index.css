@@ -4,7 +4,10 @@
 @import 'swiper/css/pagination';
 @import "tailwindcss";
 
-
+html {
+  scroll-behavior: smooth;
+}
 body{
   font-family: "Cairo", sans-serif;
 }
+

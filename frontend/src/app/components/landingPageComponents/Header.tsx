@@ -1,21 +1,18 @@
-import React from 'react'
+
 import { useState } from 'react'
-import { Star, Menu, X } from 'lucide-react'
+import {  Menu, X,  } from 'lucide-react'
+import Logo from '../Logo'
+
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
     <header className="bg-green-600 text-white sticky top-0 z-10 shadow-md">
     <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-      <div className="flex items-center space-x-2">
-        <div className="h-10 w-10 rounded-full bg-orange-500 flex items-center justify-center">
-          <Star size={24} />
-        </div>
-        <h1 className="text-xl md:text-xl font-bold">مركز البراعم للطفولة المبكرة</h1>
-      </div>
-      
+     
+    <Logo /> 
       {/* Desktop Navigation */}
-      <nav className="hidden md:flex space-x-6 rtl:space-x-reverse">
+      <nav className="hidden md:flex  space-x-6 rtl:space-x-reverse">
         <a href="#" className="hover:text-orange-300 font-small">الرئيسية</a>
         <a href="#about" className="hover:text-orange-300 font-small">من نحن</a>
         <a href="#programs" className="hover:text-orange-300 font-normal">برامجنا</a>
@@ -23,6 +20,18 @@ function Header() {
         <a href="#contact" className="hover:text-orange-300 font-normal mr-4">اتصل بنا</a>
       </nav>
       
+      <div className="hidden md:flex space-x-6 rtl:space-x-reverse">
+       <div>
+       <a href="/login" className="hidden md:inline-block bg-orange-500 text-white px-4 py-2 rounded-md ml-2 hover:bg-orange-600 transition duration-200">
+          تسجيل الدخول  
+        </a>
+       </div>
+        <div>
+          <a href="/register" className="hidden md:inline-block bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition duration-200">
+            تسجيل جديد
+          </a>
+  </div>
+      </div>
       {/* Mobile Menu Button */}
       <button 
         className="md:hidden text-white"

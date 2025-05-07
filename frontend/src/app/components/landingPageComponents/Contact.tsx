@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 
 function Contact() {
@@ -11,7 +11,7 @@ function Contact() {
         {/* Contact Info */}
         <div className="space-y-6">
           <div className="flex items-center">
-            <Phone size={24} className="mr-4" />
+            <Phone size={24} className="ml-4" />
             <div>
               <h4 className="font-semibold">اتصل بنا</h4>
               <p>+123-456-7890</p>
@@ -19,7 +19,7 @@ function Contact() {
           </div>
           
           <div className="flex items-center">
-            <Mail size={24} className="mr-4" />
+            <Mail size={24} className="ml-4" />
             <div>
               <h4 className="font-semibold">البريد الإلكتروني</h4>
               <p>info@earlychildhood.com</p>
@@ -27,15 +27,15 @@ function Contact() {
           </div>
           
           <div className="flex items-center">
-            <MapPin size={24} className="mr-4" />
+            <MapPin size={24} className="ml-4" />
             <div>
               <h4 className="font-semibold">العنوان</h4>
-              <p>شارع الرياض، حي النرجس، المدينة</p>
+              <p>بورتسودان</p>
             </div>
           </div>
           
           <div className="flex items-center">
-            <Clock size={24} className="mr-4" />
+            <Clock size={24} className="ml-4" />
             <div>
               <h4 className="font-semibold">ساعات العمل</h4>
               <p>الأحد - الخميس: 7:00 ص - 3:00 م</p>
