@@ -1,9 +1,9 @@
 import React from 'react' // Required for TypeScript JSX type resolution
 import { ChevronDown } from 'lucide-react'
 import { motion } from 'framer-motion'
-import improveImage from '../../../assets/9.jpg'
-import communcationImage from '../../../assets/7.jpg'
-import apilityImage from '../../../assets/10.jpg'
+import improveImage from '../../assets/9.jpg'
+import communcationImage from '../../assets/7.jpg'
+import apilityImage from '../../assets/10.jpg'
 
 interface Program {
   img: string

@@ -1,4 +1,4 @@
-import image from '../../../assets/11.jpg'
+import image from '../../assets/11.jpg'
 import { motion } from 'framer-motion'
 
 function HeroSection() {
